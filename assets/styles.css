@@ -1,0 +1,49 @@
+.jumbotron {
+  background-image: url("http://images.freeimages.com/images/premium/large-thumbs/3629/36296620-blue-denim-jeans-texture-background.jpg") !important;
+  padding: 35px  0px 10px 75px !important;
+}
+h1 {
+  position: relative !important;
+  font: 95px Molle, cursive !important;
+  color: rgb(177, 197, 212) !important;
+  letter-spacing: -5px;
+  text-align: left !important;
+  margin: 0 !important;
+}
+
+h1::after {
+  content: "Let's Plan . . .";
+  position: absolute !important; left:4px !important; top:2px !important;
+  color: rgba(22, 63, 89, 1) !important;
+}
+h2 {
+  text-align: right;
+  font-family: 'Faster One';
+  margin: 0;
+  font-size: 40px;
+  color: rgba(222, 170, 222, 1);
+  position: relative;
+}
+h2::after {
+  content: "You've got places to go!";
+color: rgb(18, 53, 81);
+position: absolute;
+top: 1.5px !important;
+right: -3.7px!important;
+}
+.row{
+  margin: 0;
+}
+.panel{
+  display: inline-table;
+  font-family: Andika, sans-serif;
+  margin: 20px;
+  min-width: 40%;
+}
+.table {
+  display: inline;
+  margin-left: auto;
+	margin-right: auto;
+  width: auto;
+  text-align: center;
+}
